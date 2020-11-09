@@ -1,10 +1,10 @@
 {
 "update_url": "https://clients2.google.com/service/update2/crx",
 
-  "name": "Untick",
+  "name": "Tick",
   "version": "1.0",
   "manifest_version": 2,
-  "description": "Tired of unchecking all checkboxes by hand? Install this extension",
+  "description": "Tired of checking all checkboxes by hand? Install this extension",
   "browser_action": {
     "default_icon": "icon.png",
     "default_popup": "popup.html"

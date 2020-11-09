@@ -4,12 +4,12 @@ function DOMtoString() {
     var checkedBoxes = document.getElementsByTagName('input');
     for(var i = 0; i < checkedBoxes.length; i++){
         if(checkedBoxes[i].type=='checkbox'){
-          checkedBoxes[i].checked = false;
+          checkedBoxes[i].checked = true;
         }
     }
 }
 
 chrome.runtime.sendMessage({
-    action: "unchecked",
+    action: "checked",
     source: DOMtoString()
 });

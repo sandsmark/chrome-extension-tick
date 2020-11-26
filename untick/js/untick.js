@@ -6,6 +6,7 @@ function DOMtoString() {
         if(checkedBoxes[i].type=='checkbox'){
             if (checkedBoxes[i].checked === true) {
                 checkedBoxes[i].click();
+                checkedBoxes[i].style.outline = "thick solid #FF5555";
             } else {
                 checkedBoxes[i].checked = false;
             }

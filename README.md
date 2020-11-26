@@ -1,5 +1,7 @@
 two simple chrome extensions that just tick or untick every checkbox
 
+![screenshot](/screenshot.png)
+
 to use:
     - go to the extensions settings options thing
     - enable developer mode
